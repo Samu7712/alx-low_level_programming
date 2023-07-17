@@ -13,6 +13,10 @@ while (lowercase <= 'z')
 {
 if (lowercase == 'e' || lowercase == 'q')
 {
+lowercase += 1;
+}
+else
+{
 putchar(lowercase);
 lowercase += 1;
 }
