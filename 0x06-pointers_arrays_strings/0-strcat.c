@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * _strcat - Lets concatenates two strings
  * @dest: input argument
@@ -23,7 +25,6 @@ dest[conCat1] = src[conCat2];
 conCat1++;
 conCat2++;
 }
-
-dest[conCat1] = 0;
+dest[conCat1] = '\0';
 return (dest);
 }
